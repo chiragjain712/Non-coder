@@ -1,0 +1,19 @@
+DIFFERENT USECASE OF TUPLE WITH EXAMPLE:
+
+#case 1.  Using a tuple instead of a list can give the programmer and the interpreter a hint that the data should not be changed.
+ 
+#case 2.  Tuples are commonly used as the equivalent of a dictionary without keys to store data. For Example,
+	  [('Swordfish', 'Dominic Sena', 2001), ('Snowden', ' Oliver Stone', 2016), ('Taxi Driver', 'Martin Scorsese', 1976)]
+	  Above example contains tuples inside list which has a list of movies.
+ 
+	  Reading data is simpler when tuples are stored inside a list. For example,
+
+	  [(2,4), (5,7), (3,8), (5,9)]
+
+	  is easier to read than
+
+	  [[2,4], [5,7], [3,8], [5,9]]
+
+#case 3.  Tuple can also be used as key in dictionary due to their hashable and immutable nature.
+
+	  key_val= {('alpha','bravo'):123}
