@@ -1,0 +1,7 @@
+ # Steps to change the monitor screen directory from Desktop to downloads 
+ 
+ 1: locate the .config directory in the /home/user_name
+ 2: In .config directory there is a file called user-dirs.dirs, open this file
+ 3: There is a path for the desktop directory, just change the path to downloads and save that
+ 4: Now reboot your system and you will see the downloads directory on Desktop
+ 
